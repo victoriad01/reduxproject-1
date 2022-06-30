@@ -5,9 +5,11 @@
 }
 
 .topicAndimage p {
-  font-size: 18px;
-  letter-spacing: 0.12rem;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
   margin-bottom: 10px;
+  color: gray;
 }
 
 .topicAndimage img {
@@ -25,4 +27,10 @@
   width: 270px;
   height: 40px;
   cursor: pointer;
+}
+
+.seeMore p {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(69, 67, 67);
 }

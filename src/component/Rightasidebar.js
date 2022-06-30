@@ -13,7 +13,7 @@ const Rightasidebar = () => {
   return (
     <div className='rightasidebar'>
       <div className='topicAndimage'>
-        <p>Recommended for {user}</p>
+        <p>Recommended {user ? <span> for {user} </span> : ''}</p>
         <img src={image1} alt='recommended' />
       </div>
       <div className='topicAndimage'>

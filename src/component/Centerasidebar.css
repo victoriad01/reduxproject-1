@@ -4,9 +4,9 @@
 }
 
 .centerasidebar h3 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 30px;
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.08rem;
   margin-bottom: 20px;
 }
 
@@ -14,7 +14,7 @@
   background-color: rgb(224, 248, 86);
   padding: 10px;
   font-size: 18px;
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.08rem;
   margin-bottom: 10px;
   border-radius: 12px;
 }
@@ -35,8 +35,8 @@
   border-top: 1px solid lightgray;
 }
 
-.infoe h4 {
-  font-weight: 300;
+.infoe h5 {
+  font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
   letter-spacing: 0.12rem;

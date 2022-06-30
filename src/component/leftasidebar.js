@@ -54,9 +54,12 @@ const Leftasidebar = () => {
           <li>
             <SettingsOutlined style={{ marginRight: '15px' }} /> Settings
           </li>
-          <li>
-            <LogoutOutlined style={{ marginRight: '15px' }} /> Logout ( {user} )
-          </li>
+          {user && (
+            <li>
+              <LogoutOutlined style={{ marginRight: '15px' }} /> Logout ( {user}
+              )
+            </li>
+          )}
         </div>
       </ul>
     </div>

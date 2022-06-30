@@ -25,6 +25,8 @@ const Centerasidebar = () => {
     e.preventDefault()
     if (name && email) {
       dispatch(update({ name, email }))
+      setName('')
+      setEmail('')
     }
   }
 
@@ -40,7 +42,7 @@ const Centerasidebar = () => {
       </p>
       <button onClick={handleDelete}>Delete Account</button>
       <div className='infoe'>
-        <h4>Profile Picture</h4>
+        <h5>Profile Picture</h5>
         <div className='profilePicture'>
           <div>
             <img src={myDpcenter} className='imagedp' alt='the dp' />
