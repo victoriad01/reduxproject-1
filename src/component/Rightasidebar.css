@@ -1,0 +1,28 @@
+.rightasidebar {
+  flex: 1;
+  padding: 20px;
+  border-left: 1px solid lightgray;
+}
+
+.topicAndimage p {
+  font-size: 18px;
+  letter-spacing: 0.12rem;
+  margin-bottom: 10px;
+}
+
+.topicAndimage img {
+  height: 100px;
+  width: 270px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.seeMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  width: 270px;
+  height: 40px;
+  cursor: pointer;
+}

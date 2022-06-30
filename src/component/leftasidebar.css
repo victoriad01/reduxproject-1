@@ -1,0 +1,19 @@
+.leftbarsideContainer {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.left li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.left li:hover {
+  background-color: lightgray;
+  border-radius: 12px;
+  width: 240px;
+  height: 50px;
+  padding: 5px;
+}

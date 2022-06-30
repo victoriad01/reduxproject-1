@@ -1,0 +1,83 @@
+.centerasidebar {
+  flex: 3;
+  padding: 20px;
+}
+
+.centerasidebar h3 {
+  font-weight: 200;
+  font-size: 30px;
+  letter-spacing: 0.12rem;
+  margin-bottom: 20px;
+}
+
+.centerasidebar p {
+  background-color: rgb(224, 248, 86);
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 0.12rem;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.centerasidebar button {
+  background-color: rgb(245, 120, 120);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 12px;
+  font-size: 14px;
+  letter-spacing: 0.12rem;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.infoe {
+  border-top: 1px solid lightgray;
+}
+
+.infoe h4 {
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 0.12rem;
+}
+
+.profilePicture {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.infoe p {
+  background-color: white;
+  font-size: 14px;
+  text-decoration: underline;
+  color: lightslategray;
+  cursor: pointer;
+}
+
+.inputField form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField label {
+  font-size: 16px;
+  letter-spacing: 0.12rem;
+  margin-bottom: 6px;
+}
+
+.inputField input {
+  padding: 6px;
+  width: 30%;
+  margin-bottom: 20px;
+  letter-spacing: 0.12rem;
+  border: none;
+  border: 1px solid gray;
+}
+
+.button-form button {
+  background-color: rgb(13, 121, 121);
+  color: white;
+  width: 80px;
+}

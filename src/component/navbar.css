@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbarContainer {
+  font-size: 1.4rem;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  box-shadow: 2px 1px 8px -2px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 2px 1px 8px -2px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 2px 1px 8px -2px rgba(0, 0, 0, 0.58);
+}
+
+.navbarleft {
+  flex: 2;
+  display: flex;
+  font-size: 34px;
+  font-weight: 600;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoHeader {
+  cursor: pointer;
+  color: teal;
+  font-weight: 800;
+  
+}
+
+.others {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbarCenter {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarRight {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.imagedp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
